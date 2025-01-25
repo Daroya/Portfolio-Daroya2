@@ -352,3 +352,7 @@ body {
     left: 12%;
     font-family: Andale Mono, monospace;
 }
+
+.icon{
+    border-radius: 50%;
+}
