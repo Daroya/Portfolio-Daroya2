@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    overflow: hidden; 
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 2;
+}
+
+.header .logo {
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.header .center-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header .avatar {
+    display: flex;
+    align-items: center;
+}
+
+.header .avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header .avatar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.num1 {
+    position: absolute; 
+    top: 23%; 
+    left: 50%; 
+    transform: translate(-50%, -40%); 
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 1600px;
+    height: 405px;
+    border: 2px solid rgb(204, 0, 255);
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.num2 {
+    position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -40%); 
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 1600px;
+    height: 425px;
+    border: 2px solid rgb(204, 0, 255);
+    display: flex;
+    flex-direction: column; 
+}
+
+.num1 img {
+    position: absolute;
+    width: 350px; 
+    height: auto; 
+    border-radius: 50%; 
+    left: 15%;
+    box-shadow: 5px 25px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.num1 .title {
+    font-size: 35px;
+    position: absolute;
+    top: 20%;
+    width: 130%;
+    left: 30%;
+    font-variant: small-caps;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 15%;
+}
+
+.num1 .geo {
+    position: absolute;
+    top: 32%;
+    width: 130%;
+    left: 30%;
+    color: rgb(131, 145, 145);
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 15%;
+}
+
+.num1 .tg {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    width: 130%;
+    left: 30%;
+    color: rgb(89, 0, 255);
+    font-family: Andale Mono, monospace;
+    text-align: left;
+    padding-left: 15%;
+    text-decoration: none;
+}
+
+.num1 .ds{
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    width: 130%;
+    left: 36.5%;
+    color: rgb(89, 0, 255);
+    font-family: Andale Mono, monospace;
+    text-align: left;
+    padding-left: 15%;
+    text-decoration: none;
+}
+
+.num1 .gh{
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    width: 130%;
+    left: 42.5%;
+    color: rgb(89, 0, 255);
+    font-family: Andale Mono, monospace;
+    text-align: left;
+    padding-left: 15%;
+    text-decoration: none;
+}
+
+.num1 .ticet {
+    font-size: 20px;
+    position: absolute; 
+    top: 65%; 
+    left: 67%; 
+    transform: translate(-50%, -50%); 
+    text-align: left; 
+    padding: 10px 20px; 
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    width: 700px;
+    height: 65px;
+    border: 2px solid rgb(204, 0, 255);
+    color: #fff;
+    font-variant: small-caps;
+}
+
+.num2 .project{
+    font-size: 30px;
+    position: absolute;
+    left: 75%;
+    font-family: Andale Mono, monospace;
+}
+
+.num2 .site1{
+    font-size: 25px;
+    position: absolute;
+    top: 18%;
+    width: 130%;
+    left: 62%;
+    color: rgb(89, 0, 255);
+    font-family: Andale Mono, monospace;
+    text-align: left;
+    padding-left: 15%;
+    text-decoration: none;
+}
+
+.num2 .language{
+    font-size: 30px;
+    font-family: Andale Mono, monospace;
+}
+
+.num2 .html{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 51.5%;
+    top: 18%;
+}
+
+.num2 .htmla{
+    font-size: 25px;
+    font-family: Andale Mono, monospace;
+    position: absolute;
+    top: 18.5%;
+    right: 48%;
+}
+
+.num2 .css{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    right: 50.9%;
+    top: 27%;
+}
+
+.num2 .CSSa{
+    font-size: 25px;
+    font-family: Andale Mono, monospace;
+    position: absolute;
+    right: 48.8%;
+    top: 31%;
+}
+
+.num2 .python{
+    height: 35px;
+    width: 35px;
+    font-family: Andale Mono, monospace;
+    position: absolute;
+    right: 51.3%;
+    top: 42%;
+}
+
+.num2 .pythona{
+    font-size: 20px;
+    font-family: Andale Mono, monospace;
+    position: absolute;
+    right: 47%;
+    top: 43%;
+}
+
+.skillh {
+  margin-bottom: 20px;
+  width: 25%;  
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+
+.skillc {
+  margin-bottom: 20px;
+  width: 25%; 
+  margin-left: auto; 
+  margin-right: auto;
+  position: absolute;
+  top: 65%;
+  left: 5%;
+}
+
+.skillp {
+  margin-bottom: 20px;
+  width: 25%;  
+  margin-left: auto; 
+  margin-right: auto;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+}
+
+.progress {
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  margin: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+
+.progress-bar.html {
+  height: 100%;
+  width: 0%;  
+  background-color: #ffa600;
+  animation: fill-html 2s ease-in-out forwards;
+}
+
+.progress-bar.css {
+  height: 100%;
+  width: 0%;
+  background-color: #0977b7;
+  animation: fill-css 2s ease-in-out forwards;
+}
+
+.progress-bar.python {
+  height: 100%;
+  width: 0%;
+  background-color: #ffee00;
+  animation: fill-python 2s ease-in-out forwards;
+}
+
+
+@keyframes fill-html {
+  from {
+      width: 0%;
+  }
+  to {
+      width: 88%; 
+  }
+}
+
+@keyframes fill-css {
+  from {
+      width: 0%;
+  }
+  to {
+      width: 75%; 
+  }
+}
+
+
+@keyframes fill-python {
+  from {
+      width: 0%;
+  }
+  to {
+      width: 85%; 
+  }
+}
+
+.num2 .skil{
+    font-size: 30px;
+    position: absolute;
+    left: 12%;
+    font-family: Andale Mono, monospace;
+}
