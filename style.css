@@ -1,25 +1,24 @@
-@media screen and (min-width: 1201px) {
-
+.container {
+    width: 90%; /* Контейнер занимает всю ширину */
+    max-width: 1600; /* Но не больше 1200px */
+    margin: 0 auto; /* Центровка */
+    padding: 20px;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 999px) {
+@media screen and (max-width: 768px) {
+    .num1, .num2 {
+        width: 95%; /* Уменьшаем ширину */
+        padding: 15px; /* Уменьшаем внутренние отступы */
+    }
 
-}
-
-@media screen and (max-width: 998px) and (min-width: 769px) {
-
-}
-
-@media screen and (max-width: 768px) and (min-width: 577px) {
-
-}
-
-@media screen and (max-width: 576px) {
-
-}
-
-@media screen and (min-width: 1920px) {
-
+    .num1 img, .num2 img {
+        width: 100%; /* Уменьшаем изображения */
+        height: auto; /* Сохраняем пропорции */
+    }
+}   
+html, body {
+    width: 100%;
+    overflow-x: hidden; 
 }
 
 * {
@@ -29,19 +28,23 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    overflow: hidden; 
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Скроет лишнее */
+    font-family: 'Roboto', sans-serif;
+    color: white; /* Цвет текста */
 }
 
 #background-video {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover; 
-    z-index: -1; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Подгоняет размер под экран */
+    z-index: -1;
 }
 
 .header {
@@ -153,43 +156,63 @@ body {
     padding-left: 15%;
 }
 
+.num1 {
+    position: absolute; 
+    top: 23%; 
+    left: 50%; 
+    transform: translate(-50%, -40%); 
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 1600px;
+    height: 405px;
+    border: 2px solid rgb(204, 0, 255);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; /* Центрируем содержимое */
+    justify-content: center; /* Выравниваем по вертикали */
+}
+
+.num1 {
+    position: absolute; 
+    top: 23%; 
+    left: 50%; 
+    transform: translate(-50%, -40%); 
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 1600px;
+    height: 405px;
+    border: 2px solid rgb(204, 0, 255);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.num1 .tg, .num1 .ds, .num1 .gh {
+    font-size: 20px;
+    color: rgb(89, 0, 255);
+    font-family: Andale Mono, monospace;
+    text-decoration: none;
+    position: absolute; 
+}
+
 .num1 .tg {
-    font-size: 20px;
-    position: absolute;
-    top: 40%;
-    width: 130%;
-    left: 30%;
-    color: rgb(89, 0, 255);
-    font-family: Andale Mono, monospace;
-    text-align: left;
-    padding-left: 15%;
-    text-decoration: none;
+    top: 40%; 
+    left: 45%; 
 }
 
-.num1 .ds{
-    font-size: 20px;
-    position: absolute;
-    top: 40%;
-    width: 130%;
-    left: 36.5%;
-    color: rgb(89, 0, 255);
-    font-family: Andale Mono, monospace;
-    text-align: left;
-    padding-left: 15%;
-    text-decoration: none;
+.num1 .ds {
+    top: 40%; 
+    left: 51.5%; 
 }
 
-.num1 .gh{
-    font-size: 20px;
-    position: absolute;
-    top: 40%;
-    width: 130%;
-    left: 42.5%;
-    color: rgb(89, 0, 255);
-    font-family: Andale Mono, monospace;
-    text-align: left;
-    padding-left: 15%;
-    text-decoration: none;
+.num1 .gh {
+    top: 40%; 
+    left: 57%; 
 }
 
 .num1 .ticet {
@@ -288,7 +311,7 @@ body {
   width: 25%;  
   position: absolute;
   top: 60%;
-  left: 5%;
+  left: 10%;
 }
 
 .skillc {
@@ -298,7 +321,7 @@ body {
   margin-right: auto;
   position: absolute;
   top: 65%;
-  left: 5%;
+  left: 10%;
 }
 
 .skillp {
@@ -308,7 +331,7 @@ body {
   margin-right: auto;
   position: absolute;
   top: 70%;
-  left: 5%;
+  left: 10%;
 }
 
 .progress {
@@ -373,7 +396,7 @@ body {
 .num2 .skil{
     font-size: 30px;
     position: absolute;
-    left: 12%;
+    left: 18%;
     font-family: Andale Mono, monospace;
 }
 
