@@ -403,3 +403,16 @@ body {
 .icon{
     border-radius: 50%;
 }
+
+.num2 .opis{
+    font-size: 25px;
+    position: absolute;
+    color: rgb(131, 145, 145);
+    top: 25%;
+    width: 130%;
+    left: 58.1%;
+    font-family: Andale Mono, monospace;
+    text-align: left;
+    padding-left: 15%;
+    text-decoration: none;
+}
