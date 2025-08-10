@@ -1,7 +1,6 @@
-# Portfolio
 <h1 align="center">✨ DAROYA ✨</h1>
 <p align="center">
-![Пример](Portfolio-Daroya2/media/readme.png)
+  <img src="Portfolio-Daroya2/media/readme.png" alt="Пример" />
 </p>
 
 <p align="center">
