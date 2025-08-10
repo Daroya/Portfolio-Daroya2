@@ -5,38 +5,39 @@
 </p>
 
 <p align="center">
-  💻 Python & HTML Developer | 🔒 Backend Enthusiast  
+  💻 Python & HTML Developer | 🔒 Backend beginner  
 </p>
 
 ---
 
-## 📖 О проекте
+## 📖 About the project
 
-Этот проект — моё портфолио.  
-Здесь собраны мои работы, эксперименты и тестовые наработки.  
+This project is my portfolio.
+
+My works, experiments and test developments are collected here.
+And other information about me. 
 
 ---
 
-## 🛠 Используемые технологии
+## 🛠 Technologies used
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)]
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 ---
 
-## 📂 Материалы и ресурсы
+## 📂 Materials and resources
 
-- 📄 Код написан вручную на Python и HTML  
-- 🎨 Дизайн — вдохновлён GitHub-репозиториями [Sly-Harvey](https://github.com/Sly-Harvey) и другими  
-- 🖼 Изображения — мои и свободные из [Unsplash](https://unsplash.com/)  
-- 🛠 Бейджи — [Shields.io](https://shields.io/)  
+- 📄 The code is written manually in CSS and HTML 
+- 🎨 Design - Inspired by GitHub repositories [Sly-Harvey](https://github.com/Sly-Harvey) and others 
+- 🖼 Images are mine and free from [Unsplash](https://unsplash.com/)  
+- 🛠 Badges — [Shields.io](https://shields.io/)  
 
 ---
 
-## 📬 Контакты
+## 📬 Contacts
 
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/твой_ник)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/daroyaaa)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/DAROYA)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:твоя@почта.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:gavriluka628@gmail.com.com)
