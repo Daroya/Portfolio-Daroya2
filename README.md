@@ -1,7 +1,7 @@
 # Portfolio
 <h1 align="center">✨ DAROYA ✨</h1>
 <p align="center">
-  <img src="https://postimg.cc/s1ksL1wr" alt="Banner" width="600">
+  !Пример(https://example.com/photo.png)
 </p>
 
 <p align="center">
