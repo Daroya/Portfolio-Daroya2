@@ -1,6 +1,6 @@
 <h1 align="center">✨ DAROYA ✨</h1>
 <p align="center">
-  <img src="Portfolio-Daroya2/media/readme.png" alt="Пример" />
+![Пример](https://github.com/Daroya/Репо/blob/main/Portfolio-Daroya2/media/readme.png?raw=true)
 </p>
 
 <p align="center">
